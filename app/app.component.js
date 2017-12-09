@@ -14,7 +14,7 @@ var AppComponent = /** @class */ (function () {
         core_1.Component({
             moduleId: module.id,
             selector: 'app',
-            template: '<h1>Navigation</h1>'
+            templateUrl: 'app.component.html'
         })
     ], AppComponent);
     return AppComponent;
