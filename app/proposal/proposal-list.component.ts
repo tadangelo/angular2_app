@@ -3,7 +3,7 @@ import { Proposal } from './proposal';
 
 @Component({
   moduleId: module.id,
-  selctor: 'proposal-list',
+  selector: 'proposal-list',
   templateUrl: 'proposal-list.component.html'
 })
 export class ProposalListComponent {

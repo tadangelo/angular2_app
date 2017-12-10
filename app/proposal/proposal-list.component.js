@@ -22,7 +22,7 @@ var ProposalListComponent = /** @class */ (function () {
     ProposalListComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
-            selctor: 'proposal-list',
+            selector: 'proposal-list',
             templateUrl: 'proposal-list.component.html'
         })
     ], ProposalListComponent);
