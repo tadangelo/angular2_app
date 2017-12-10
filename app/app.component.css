@@ -1,0 +1,28 @@
+.app-body {
+  margin-top: 40px;
+}
+
+#menuDropdown {
+  color: dimgray;
+  background-color: GhostWhite; 
+}
+
+.nav-styles {
+  background-color: GhostWhite;
+}
+
+.nav-styles a {
+  color: dimgray;
+}
+
+.nav-styles a:hover {
+  color: LightSteelBlue;
+}
+
+.nav-link.active {
+  color: LightSteelBlue !important;
+}
+
+.dropdown-menu {
+  background-color: GhostWhite;
+}

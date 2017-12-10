@@ -9,18 +9,14 @@ body {
   padding-right: 7%;
 }
 
-#menuDropdown {
-  color: dimgray; 
-}
-
 a {
   color: dimgray;
 }
 
-.active {
-  color: LightSteelBlue;
+a:hover {
+  color: white;
 }
 
-.card-block {
-  color: DarkSlateGray;
+.active {
+  color: white;
 }
