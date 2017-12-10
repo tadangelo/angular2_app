@@ -16,3 +16,7 @@ body {
 a {
   color: dimgray;
 }
+
+.active {
+  color: LightSteelBlue;
+}

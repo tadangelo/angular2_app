@@ -5,10 +5,10 @@
         Menu
       </button>
         <div class="dropdown-menu" aria-labelledby="menuDropdown">
-          <a class="nav-item nav-link" routerLink="/home">Home</a>
-          <a class="nav-item nav-link" routerLink="/documents">Docs</a>
-          <a class="nav-item nav-link" routerLink="/proposals">Proposals</a>
-          <a class="nav-item nav-link" routerLink="/proposals/new">New Proposal</a>
+          <a class="nav-item nav-link" routerLink="/home" routerLinkActive="active">Home</a>
+          <a class="nav-item nav-link" routerLink="/documents" routerLinkActive="active">Docs</a>
+          <a class="nav-item nav-link" routerLink="/proposals" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Proposals</a>
+          <a class="nav-item nav-link" routerLink="/proposals/new" routerLinkActive="active">New Proposal</a>
         </div>
     </div>
   </div>
