@@ -1,8 +1,17 @@
-<h1>Navigation</h1>
-
-<a routerLink="/home">Home</a>
-<a routerLink="/documents">Docs</a>
-<a routerLink="/proposals">Proposals</a>
-<a routerLink="/proposals/new">New Proposal</a>
+<nav class="navbar navbar-md navbar-light bg-faded">
+  <div class="nav-item dropdown">
+    <div ngbDropdown class='d-inline-block dropdown-links'>
+      <button class="btn btn-outline-secondary" id="menuDropdown" ngbDropdownToggle>
+        Menu
+      </button>
+        <div class="dropdown-menu" aria-labelledby="menuDropdown">
+          <a class="nav-item nav-link" routerLink="/home">Home</a>
+          <a class="nav-item nav-link" routerLink="/documents">Docs</a>
+          <a class="nav-item nav-link" routerLink="/proposals">Proposals</a>
+          <a class="nav-item nav-link" routerLink="/proposals/new">New Proposal</a>
+        </div>
+    </div>
+  </div>
+</nav>
 
 <router-outlet></router-outlet>

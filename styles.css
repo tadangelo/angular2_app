@@ -2,3 +2,17 @@ body {
   background-color: #252830;
   color: white;
 }
+
+.navbar {
+  display: flex;
+  align-items: flex-end;
+  padding-right: 7%;
+}
+
+#menuDropdown {
+  color: dimgray; 
+}
+
+a {
+  color: dimgray;
+}
