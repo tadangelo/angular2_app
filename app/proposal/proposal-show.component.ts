@@ -5,8 +5,10 @@ import { Proposal } from './proposal';
 @Component({
   moduleId: module.id,
   selector: 'proposal-show',
-  templateUrl: 'proposal-show.component.html'
+  templateUrl: 'proposal-show.component.html',
+  styleUrls: ['proposal-show.component.css']
 })
+
 export class ProposalShowComponent implements OnInit {
   id: number;
   routeId: any;
