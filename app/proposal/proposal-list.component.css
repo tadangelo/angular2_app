@@ -1,0 +1,14 @@
+.headline {
+  color: DimGray;
+}
+
+a:hover {
+  color: LightSteelBlue;
+  text-decoration: none;
+}
+
+.list-group-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
