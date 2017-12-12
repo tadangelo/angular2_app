@@ -12,6 +12,7 @@ body {
 
 a {
   color: dimgray;
+  cursor: pointer;
 }
 
 a:hover {
