@@ -1,4 +1,6 @@
 .proposal-card {
-  color: DimGray;
+  color: White;
   padding: 30px;
+  background-color: transparent;
+  border-color: GhostWhite;
 }

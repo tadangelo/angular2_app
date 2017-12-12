@@ -1,0 +1,7 @@
+.card {background-color: transparent;
+  border-color: GhostWhite;
+  color: GhostWhite;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
