@@ -123,6 +123,16 @@
                     [(ngModel)]="proposal.client_email" 
             >
           </div>
+
+            <button type="submit"
+              class="btn btn-outline-info btn-lg form-control"
+              [disabled]="!proposalForm.form.valid"
+              [hidden]="submitted"
+            >
+              Generate Proposal
+            </button>
+
+
         </form>
       </div>
     </div>
